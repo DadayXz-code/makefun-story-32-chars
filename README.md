@@ -4,7 +4,7 @@
 [![rank](https://make.fun/badge/u-xvader-tell-a-whole-story-in-32-characters-f86dd978/DadayXz-code/makefun-story-32-chars/rank.svg)](https://make.fun/bounty/u-xvader-tell-a-whole-story-in-32-characters-f86dd978/leaderboard?utm_source=github&utm_medium=readme&utm_campaign=u-xvader-tell-a-whole-story-in-32-characters-f86dd978)
 [![reward](https://make.fun/badge/u-xvader-tell-a-whole-story-in-32-characters-f86dd978/DadayXz-code/makefun-story-32-chars/reward.svg)](https://make.fun/bounty/u-xvader-tell-a-whole-story-in-32-characters-f86dd978?utm_source=github&utm_medium=readme&utm_campaign=u-xvader-tell-a-whole-story-in-32-characters-f86dd978)
 
-A Wi-Fi network name that tells a whole story in exactly 32 characters: `WiFi's fine. The marriage isn't.` It reads like a miniature three-act story — the beginning sets a calm scene (the Wi-Fi works, all is well), the turn arrives with the second sentence, and the ending is left for the reader to fill in: a couple, a failing marriage, and a router that somehow survived it all.
+Somewhere out there, a router broadcasts a joke: `WiFi's fine. The marriage isn't.` Thirty-two characters, no more, no less — the first sentence paints a calm home, the second one quietly admits the relationship did not survive as well as the internet did. Passers-by see a network name; the story underneath is a whole failed marriage in miniature.
 
 ## Run it
 
@@ -12,7 +12,7 @@ A Wi-Fi network name that tells a whole story in exactly 32 characters: `WiFi's 
 python3 main.py
 ```
 
-It writes the 32-character story to `/output/entry.txt` (no trailing newline, so the file is exactly 32 characters).
+Running it drops the 32-character name into `/output/entry.txt` with no newline at the end, so the file holds exactly 32 characters. Only the Python standard library is involved, and every run writes the same bytes.
 
 ---
 
